@@ -6,77 +6,43 @@ html, body {
 nav {
     background-color: forestgreen;
     position: relative;
+    overflow: hidden;
 }
 
 .navbar-brand {
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
+    color: white;
 }
 
 .nav-link {
     font-weight: bold;
     font-size: 20px;
-}
-
-#conifer {
-    position: absolute;
-    max-height: 125px;
-    left: 100px;
-    bottom: 0px;
-}
-
-#deciduous {
-    position: absolute;
-    max-height: 125px;
-    left: 200px;
-    bottom: 0px;
+    color: forestgreen;
+    z-index: 2;
 }
 
 #dragon {
     position: absolute;
-    max-height: 125px;
-    right: 25px;
-    bottom: 0px;
-}
-
-#archer {
-    position: absolute;
-    max-height: 50px;
-    right: 200px;
-    bottom: 0px;
-}
-
-#grass {
-    position: absolute;
-    max-height: 75px;
+    max-height: 300px;
     left: 150px;
-    bottom: 0px;
-}
-
-#bird {
-    position: absolute;
-    max-height: 25px;
-    left: 175px;
-    bottom: 75px;
+    bottom: 150px;
 }
 
 #castle {
     position: absolute;
-    max-height: 150px;
-    right: 300px;
-    bottom: -20px;
+    max-height: 200px;
+    bottom: -25px;
+    z-index: 1;
 }
 
-#moose {
-    position: absolute;
-    max-height: 50px;
-    left: 325px;
-    bottom: 0px;
-}
-
-#tree-2 {
+#tree {
     position: absolute;
     max-height: 150px;
-    left: 375px;
-    bottom: -5px;
+    right: 150px;
+    bottom: -1px;
+}
+
+.footer {
+    background-color: forestgreen;
 }
