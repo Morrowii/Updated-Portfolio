@@ -15,11 +15,19 @@ nav {
     color: white;
 }
 
+.navbar-brand:hover {
+    color: lime;
+}
+
 .nav-link {
     font-weight: bold;
     font-size: 20px;
     color: forestgreen;
     z-index: 2;
+}
+
+.nav-link:hover {
+    color: lime;
 }
 
 #dragon {
@@ -43,6 +51,30 @@ nav {
     bottom: -1px;
 }
 
+p {
+    color: gray;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+#portfolio-projects {
+    color: gray;
+}
+
+.project-screen {
+    max-width: 250px;
+    box-shadow: 15px 15px 30px;
+}
+
 .footer {
     background-color: forestgreen;
+}
+
+#email {
+    color: white;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
 }
