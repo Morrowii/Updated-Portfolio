@@ -35,6 +35,7 @@ nav {
     max-height: 300px;
     left: 150px;
     bottom: 150px;
+    display: none;
 }
 
 #castle {
@@ -49,6 +50,7 @@ nav {
     max-height: 150px;
     right: 150px;
     bottom: -1px;
+    display: none;
 }
 
 p {
@@ -77,4 +79,10 @@ p {
 .logo {
     max-width: 100px;
     max-height: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+    #dragon, #tree {
+        display: block;
+    }
 }
