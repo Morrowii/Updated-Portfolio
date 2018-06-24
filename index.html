@@ -21,9 +21,9 @@
     <nav class="navbar d-flex flex-column">
         <a class="navbar-brand mt-5 mx-0" href="#">Ryan Sadler</a>
         <div class="navbar-nav d-flex flex-row">
-            <a class="nav-item nav-link text-center px-2 active" href="#">Home</a>
-            <a class="nav-item nav-link text-center px-2" href="#">Portfolio</a>
-            <a class="nav-item nav-link text-center px-2" href="#">Contact</a>
+            <a class="nav-item nav-link text-center px-2" id='home-button' href="#">Home</a>
+            <a class="nav-item nav-link text-center px-2" id='portfolio-button' href="#">Portfolio</a>
+            <a class="nav-item nav-link text-center px-2" id='contact-button' href="#">Contact</a>
         </div>
         <img src='assets/images/dragon-attack.png' id='dragon'>
         <img src='assets/images/castle.png' id='castle'>
@@ -33,14 +33,14 @@
     <div class='container-fluid bg-white'>
 
         <div class='row'>
-            <div class='col p-5 d-none flex-row flex-wrap justify-content-center'>
-                <img src='assets/images/profile-photo.jpg'>
-                <p class='my-auto'>
+            <div class='col p-5 d-flex flex-row flex-wrap justify-content-center' id='profile-section'>
+                <img src='assets/images/artistic-profile.png' class='mx-5 px-5' id='profile-photo'>
+                <p class='my-auto mr-auto'>
                     As a software developer and Master's educated environmental scientist, I thrive on challenge.
                 </p>
             </div>
 
-            <div class='col p-5 d-flex flex-row flex-wrap justify-content-center' id='portfolio-projects'>
+            <div class='col p-5 d-none flex-row flex-wrap justify-content-center' id='portfolio-section'>
                 <div class='m-3 p-3 project d-flex flex-column' id='project-one'>
                     <h5 class='mx-auto'>RPG Game</h5>
                     <img src='assets/images/rpg-game-screen.jpg' class='project-screen mt-2 mb-4'>
@@ -65,6 +65,11 @@
                     <a href='https://github.com/Morrowii/liri-node-app' class='mx-auto'>GitHub Code</a>
                 </div>
             </div>
+
+            <div class='col d-none' id='contact-section'>
+                Testing
+            </div>
+
         </div>
 
         <div class='row footer'>

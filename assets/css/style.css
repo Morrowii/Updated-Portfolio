@@ -4,7 +4,7 @@ html, body {
 }
 
 nav {
-    background-color: forestgreen;
+    background-color: #7abc00;
     position: relative;
     overflow: hidden;
 }
@@ -13,22 +13,22 @@ nav {
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
     color: white;
-    margin-bottom: 150px;
+    margin-bottom: 10rem;
 }
 
 .navbar-brand:hover {
-    color: lime;
+    color: green;
 }
 
 .nav-link {
     font-weight: bold;
     font-size: 20px;
-    color: forestgreen;
+    color: #7abc00;
     z-index: 2;
 }
 
 .nav-link:hover {
-    color: lime;
+    color: green;
 }
 
 #dragon {
@@ -54,23 +54,27 @@ nav {
     display: none;
 }
 
+#profile-photo {
+    max-width: 500px;
+    max-height: 500px;
+}
+
 p {
     color: gray;
     font-weight: bold;
-    max-width: 500px;
 }
 
-#portfolio-projects {
+#portfolio-section {
     color: gray;
 }
 
 .project-screen {
     max-width: 250px;
-    box-shadow: 15px 15px 30px;
+    box-shadow: 0px 0px 15px, 0px 0px 15px;
 }
 
 .footer {
-    background-color: forestgreen;
+    background-color: #7abc00;
 }
 
 #email {
