@@ -14,7 +14,7 @@
     <!-- Custom CSS -->
     <link rel='stylesheet' href='assets/css/style.css'>
 
-    <title>Ryan Sadler</title>
+    <title>Ryan Sadler Portfolio</title>
   </head>
   <body>
 
@@ -32,10 +32,10 @@
 
     <div class='container-fluid bg-white'>
 
-        <div class='row'>
+        <div class='row content'>
             <div class='col p-5 d-flex flex-row flex-wrap justify-content-center' id='profile-section'>
-                <img src='assets/images/artistic-profile.png' class='mx-5 px-5' id='profile-photo'>
-                <p class='my-auto mr-auto'>
+                <img src='assets/images/artistic-profile.png' class='my-auto mx-5' id='profile-photo'>
+                <p class='my-auto mx-5'>
                     As a software developer and Master's educated environmental scientist, I thrive on challenge.
                 </p>
             </div>
@@ -66,24 +66,37 @@
                 </div>
             </div>
 
-            <div class='col d-none' id='contact-section'>
-                Testing
+            <div class='col p-5 d-none flex-row flex-wrap justify-content-center' id='contact-section'>
+                <form class='w-75'>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="commentBox">Message</label>
+                        <textarea class="form-control" id="comments" rows="10" placeholder="Type your message here."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: green; color: white;">Submit</button>
+                </form>
             </div>
-
         </div>
 
-        <div class='row footer'>
-            <div class='col d-flex flex-column justify-content-center py-4'>
-                <h3 class='mx-auto my-4' id='email'>sadler.m.ryan@gmail.com</h3>
-                <div class='mx-auto my-4'>
-                    <a href='https://linkedin.com/in/ryan-m-sadler' class='mx-3'><img src='assets/images/In-White-128px-TM.png' class='logo'></a>
-                    <a href='https://github.com/Morrowii' class='mx-3'><img src='assets/images/GitHub-Mark-Light-120px-plus.png' class='logo'></a>
-                    <a href='https://angel.co/ryan-m-sadler?public_profile=1' class='mx-3'><img src='assets/images/AngelList_White_Victory_Hand.png' class='logo'></a>
-                    <a href='https://stackexchange.com/users/13112364/ryan' class='mx-3 d-none'><img src='' class='logo'></a>
-                </div>
+    </div>
+
+    <div class='footer'>
+        <div class='container-fluid d-flex flex-column justify-content-center py-4'>
+            <h3 class='mx-auto my-4' id='email'>sadler.m.ryan@gmail.com</h3>
+            <div class='mx-auto my-4'>
+                <a href='https://linkedin.com/in/ryan-m-sadler' class='mx-3'><img src='assets/images/In-White-128px-TM.png' class='logo'></a>
+                <a href='https://github.com/Morrowii' class='mx-3'><img src='assets/images/GitHub-Mark-Light-120px-plus.png' class='logo'></a>
+                <a href='https://angel.co/ryan-m-sadler?public_profile=1' class='mx-3'><img src='assets/images/AngelList_White_Victory_Hand.png' class='logo'></a>
+                <a href='https://stackexchange.com/users/13112364/ryan' class='mx-3 d-none'><img src='' class='logo'></a>
             </div>
         </div>
-
     </div>
 
     <!-- Optional JavaScript -->
