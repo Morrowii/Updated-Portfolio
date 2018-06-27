@@ -22,15 +22,15 @@ nav {
     margin-bottom: 10rem;
 }
 
-.navbar-brand:hover {
-    color: green;
-}
-
 .nav-link {
     font-weight: bold;
     font-size: 20px;
     color: #7abc00;
     z-index: 2;
+}
+
+#home-button {
+    color: green;
 }
 
 .nav-link:hover {
