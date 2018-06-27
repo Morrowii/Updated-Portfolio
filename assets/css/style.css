@@ -65,6 +65,18 @@ nav {
     overflow: hidden;
 }
 
+#filler {
+    margin-top: 5rem;
+    height: 20rem;
+    background-color: teal;
+}
+
+#fish {
+    max-width: 400px;
+    max-height: 150px;
+    transform: rotate(0deg);
+}
+
 .content {
     opacity: 0;
 }
