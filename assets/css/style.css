@@ -79,9 +79,9 @@ nav {
     height: 350px;
 }
 
-#fish {
+#winding-path {
     max-width: 400px;
-    max-height: 150px;
+    max-height: 300px;
     transform: rotate(0deg);
 }
 
