@@ -1,6 +1,6 @@
 
 html, body {
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 body {
@@ -8,18 +8,25 @@ body {
     padding-bottom: 250px;
 }
 
-nav {
+.banner {
     background-color: #7abc00;
     position: relative;
     overflow: hidden;
     z-index: 0;
+    height: 350px;
+}
+
+nav {
+    overflow: hidden;
+    height: 75px;
 }
 
 .navbar-brand {
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
     color: white;
-    margin-bottom: 10rem;
+    margin-top: 50px;
+    margin-bottom: 250px;
 }
 
 .nav-link {
@@ -49,6 +56,8 @@ nav {
     position: absolute;
     max-height: 200px;
     bottom: -30px;
+    left: -9999px;
+    right: -9999px;
     z-index: 1;
 }
 
@@ -66,9 +75,8 @@ nav {
 }
 
 #filler {
-    margin-top: 5rem;
-    height: 20rem;
     background-color: teal;
+    height: 350px;
 }
 
 #fish {
@@ -121,5 +129,16 @@ p {
 @media only screen and (min-width: 1200px) {
     #dragon, #tree {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner, #filler {
+        height: 275px;
+    }
+
+    .navbar-brand {
+        margin-top: 10px;
+        margin-bottom: 100px;
     }
 }
