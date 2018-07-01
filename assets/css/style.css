@@ -77,12 +77,11 @@ nav {
 #filler {
     background-color: green;
     height: 350px;
+    overflow: hidden;
 }
 
 #winding-path {
-    max-width: 400px;
-    max-height: 300px;
-    transform: rotate(0deg);
+    max-height: 350px;
 }
 
 .content {
@@ -140,5 +139,9 @@ p {
     .navbar-brand {
         margin-top: 10px;
         margin-bottom: 100px;
+    }
+
+    #winding-path  {
+        max-height: 275px;
     }
 }
