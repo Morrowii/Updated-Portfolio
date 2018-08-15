@@ -1,5 +1,3 @@
-<!-- To-do list: write profile summary, add coding skills graphics below profile, update portfolio projects, make contact form send email directly -->
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -25,38 +23,29 @@
   </head>
   <body>
 
-    <div class='container-fluid d-flex banner'>
-        <span class="navbar-brand mx-auto text-white">Ryan Sadler</span>
-        <img src='assets/images/dragon-attack.png' id='dragon'>
-        <img src='assets/images/castle.png' id='castle' class='mx-auto'>
-        <img src='assets/images/full-tree.png' id='tree'>
+    <div class='container-fluid p-0'>
+        <div class='col d-flex flex-column'>
+            <div class='row banner'>
+                <span class='brand mx-auto text-white'>Ryan Sadler</span>
+                <img src='assets/images/dragon-attack.png' id='dragon'>
+                <img src='assets/images/castle.png' id='castle' class='mx-auto'>
+                <img src='assets/images/full-tree.png' id='tree'>
+            </div>
+            <div class='row spacer'></div>
+        </div>
     </div>
 
-    <nav class="navbar d-flex flex-column bg-white">
-        <div class="navbar-nav d-flex flex-row">
-            <a class="nav-item nav-link text-center px-2" id='home-button' href="#">Home</a>
-            <a class="nav-item nav-link text-center px-2" id='portfolio-button' href="#">Portfolio</a>
-            <a class="nav-item nav-link text-center px-2" id='contact-button' href="#">Contact</a>
-        </div>
-    </nav>
+    <div class='container-fluid content p-0'>
 
-    <div class='container-fluid bg-white'>
-
-        <div class='row' id='filler'>
-            <div class='col d-flex'>
-                <img src='assets/images/winding-path.png' class='m-auto' id='winding-path'>
-            </div>
-        </div>
-
-        <div class='row content'>
-            <div class='col p-5 d-flex flex-row flex-wrap justify-content-center' id='profile-section'>
+        <div class='col'>
+            <div class='row p-5 d-flex flex-row flex-wrap justify-content-center' id='profile-section'>
                 <img src='assets/images/artistic-profile.png' class='my-auto mx-5' id='profile-photo'>
                 <p class='my-auto mx-5 text-center'>
                     As a software developer and Master's educated environmental scientist, I thrive on challenge.
                 </p>
             </div>
 
-            <div class='col p-5 d-none flex-row flex-wrap justify-content-center' id='portfolio-section'>
+            <div class='row p-5 flex-row flex-wrap justify-content-center' id='portfolio-section'>
                 <div class='m-3 p-3 project d-flex flex-column' id='project-one'>
                     <h5 class='mx-auto'>RPG Game</h5>
                     <img src='assets/images/rpg-game-screen.jpg' class='project-screen mt-2 mb-4'>
@@ -93,37 +82,17 @@
                 </div>
             </div>
 
-            <div class='col p-5 d-none flex-row flex-wrap justify-content-center' id='contact-section'>
-                <form class='w-100' action='mailto:sadler.m.ryan@gmail.com' method='post' enctype='text/plain'>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input class="form-control" id="name" placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="commentBox">Message</label>
-                        <textarea class="form-control" id="comments" rows="10" placeholder="Type your message here."></textarea>
-                    </div>
-                    <button type="submit" class="btn" style="background-color: green; color: white;">Send</button>
-                </form>
+            <div class='row footer d-flex flex-column flex-wrap justify-content-center py-4'>
+                <h3 class='mx-auto my-4' id='email'>sadler.m.ryan@gmail.com</h3>
+                <div class='mx-auto my-4'>
+                    <a href='https://linkedin.com/in/ryan-m-sadler' class='mx-3'><img src='assets/images/In-White-128px-TM.png' class='logo'></a>
+                    <a href='https://github.com/Morrowii' class='mx-3'><img src='assets/images/GitHub-Mark-Light-120px-plus.png' class='logo'></a>
+                    <a href='https://angel.co/ryan-m-sadler?public_profile=1' class='mx-3'><img src='assets/images/AngelList_White_Victory_Hand.png' class='logo'></a>
+                    <a href='https://stackexchange.com/users/13112364/ryan' class='mx-3 d-none'><img src='' class='logo'></a>
+                </div>
             </div>
         </div>
 
-    </div>
-
-    <div class='footer'>
-        <div class='container-fluid d-flex flex-column justify-content-center py-4'>
-            <h3 class='mx-auto my-4' id='email'>sadler.m.ryan@gmail.com</h3>
-            <div class='mx-auto my-4'>
-                <a href='https://linkedin.com/in/ryan-m-sadler' class='mx-3'><img src='assets/images/In-White-128px-TM.png' class='logo'></a>
-                <a href='https://github.com/Morrowii' class='mx-3'><img src='assets/images/GitHub-Mark-Light-120px-plus.png' class='logo'></a>
-                <a href='https://angel.co/ryan-m-sadler?public_profile=1' class='mx-3'><img src='assets/images/AngelList_White_Victory_Hand.png' class='logo'></a>
-                <a href='https://stackexchange.com/users/13112364/ryan' class='mx-3 d-none'><img src='' class='logo'></a>
-            </div>
-        </div>
     </div>
 
     <!-- Optional JavaScript -->

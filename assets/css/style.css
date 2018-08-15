@@ -1,11 +1,5 @@
-
 html, body {
-    min-height: 100%;
-}
-
-body {
-    position: relative;
-    padding-bottom: 250px;
+    height: 100%;
 }
 
 .banner {
@@ -13,42 +7,21 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 0;
-    height: 350px;
+    height: 300px;
 }
 
-nav {
-    overflow: hidden;
-    height: 75px;
-}
-
-.navbar-brand {
+.brand {
     font-family: 'Permanent Marker', cursive;
     font-size: 60px;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 250px;
-}
-
-.nav-link {
-    font-weight: bold;
-    font-size: 20px;
-    color: #7abc00;
-    z-index: 2;
-}
-
-#home-button {
-    color: green;
-}
-
-.nav-link:hover {
-    color: green;
+    margin-top: 20px;
 }
 
 #dragon {
     position: absolute;
     max-height: 300px;
     left: 150px;
-    bottom: 150px;
+    top: -100px;
     display: none;
 }
 
@@ -69,23 +42,13 @@ nav {
     display: none;
 }
 
-.container-fluid {
-    z-index: -1;
-    overflow: hidden;
-}
-
-#filler {
-    background-color: green;
-    height: 350px;
-    overflow: hidden;
-}
-
-#winding-path {
-    max-height: 350px;
+.spacer {
+    background-color: white;
+    height: 50px;
 }
 
 .content {
-    opacity: 0;
+    background-color: white;
 }
 
 #profile-photo {
@@ -109,11 +72,6 @@ p {
 
 .footer {
     background-color: #7abc00;
-    height: 250px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
 }
 
 #email {
@@ -132,16 +90,8 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-    .banner, #filler {
-        height: 275px;
-    }
-
-    .navbar-brand {
+    .brand {
         margin-top: 10px;
         margin-bottom: 100px;
-    }
-
-    #winding-path  {
-        max-height: 275px;
     }
 }
