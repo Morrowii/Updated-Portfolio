@@ -48,7 +48,7 @@ html, body {
 }
 
 #about-section {
-    background-color: rgb(20, 20, 20);
+    background-color: darkgreen;
     opacity: 0;
     flex-direction: column;
 }
@@ -66,8 +66,9 @@ p {
 }
 
 #about-section {
-    color: lightgray;
+    color: white;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
 .project-screen {
