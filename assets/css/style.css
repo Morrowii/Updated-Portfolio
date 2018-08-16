@@ -44,11 +44,13 @@ html, body {
 
 .spacer {
     background-color: white;
-    height: 50px;
+    height: 500px;
 }
 
-.content {
-    background-color: white;
+#about-section {
+    background-color: rgb(20, 20, 20);
+    opacity: 0;
+    flex-direction: column;
 }
 
 #profile-photo {
@@ -57,12 +59,15 @@ html, body {
 }
 
 p {
-    color: gray;
-    font-weight: bold;
+    max-width: 400px;
+    opacity: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#portfolio-section {
-    color: gray;
+#about-section {
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .project-screen {
@@ -87,11 +92,15 @@ p {
     #dragon, #tree {
         display: block;
     }
+    #about-section {
+        flex-direction: row;
+    }
+    p {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .brand {
-        margin-top: 10px;
-        margin-bottom: 100px;
-    }
+
 }
