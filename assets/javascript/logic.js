@@ -7,6 +7,11 @@ $(document).ready(function() {
         opacity: 1
     }, 3000);
     setTimeout(function() {
+        $('#profile-photo').animate({
+            opacity: 1
+        }, 2000);
+    }, 3000);
+    setTimeout(function() {
         $('p').animate({
             opacity: 1
         }, 2000);
